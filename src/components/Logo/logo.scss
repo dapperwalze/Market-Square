@@ -1,0 +1,32 @@
+.header__logo-block {
+  display: flex;
+}
+.header__logo-link {
+  text-decoration: none;
+}
+.header__logo-container {
+  background-color: #000080;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  color: #fff;
+}
+.header__brand-name-container {
+  padding: 10px 15px;
+}
+.header__brand-name {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  color: #e60000;
+  margin: 0;
+}
+.header__brand-tag-line {
+  color: #000080;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}

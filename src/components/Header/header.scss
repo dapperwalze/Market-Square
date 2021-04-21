@@ -1,0 +1,19 @@
+$backgroundColor: #fff;
+$primaryTextColor: #1f1f1f;
+$secondaryTextColor: #fff;
+$fontFamily: "Quicksand", sans-serif;
+$baseFontSize: 1rem;
+$lineHeight: 15px;
+
+.header {
+  width: 100%;
+  padding: 25px 140px;
+  background-color: $backgroundColor;
+  color: $primaryTextColor;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #ccc;
+}
+.header__right-block {
+  display: flex;
+}
