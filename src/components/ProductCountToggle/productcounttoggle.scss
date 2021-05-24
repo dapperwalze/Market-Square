@@ -1,0 +1,30 @@
+.selected__product__count__toggle__container {
+  border: 2px solid #336ecf;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  align-self: flex-end;
+}
+.btn__decrement,
+.btn__increment {
+  height: 23px;
+  width: 23px;
+  background-color: #e9eff9;
+  color: #336ecf;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.selected__product__count__value {
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+}

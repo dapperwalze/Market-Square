@@ -6,9 +6,9 @@ export const CartContent = () => {
   return (
     <aside className="cart__content">
       <h2 className="cart__content__header">
-        Cart <Badge numberOfItems={0} />
+        Cart <Badge className="badge" numberOfItems={0} />
       </h2>
-      <EmptyCartReaction />
+      <EmptyCartReaction className="sad__smiley" />
     </aside>
   );
 };

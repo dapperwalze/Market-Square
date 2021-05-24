@@ -1,9 +1,10 @@
 import { IoStorefrontOutline } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 import "./logo.scss";
 
 export const Logo = ({ brandName, brandTagline }) => {
   return (
-    <a className="header__logo-link" href="/">
+    <NavLink className="header__logo-link" exact={true} to={"/"}>
       <div className="header__logo-block">
         <div className="header__logo-container">
           <IoStorefrontOutline className="logo" size={"2.5rem"} />
@@ -13,6 +14,6 @@ export const Logo = ({ brandName, brandTagline }) => {
           <span className="header__brand-tag-line">{brandTagline}</span>
         </div>
       </div>
-    </a>
+    </NavLink>
   );
 };

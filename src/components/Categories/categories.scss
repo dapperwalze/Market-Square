@@ -1,5 +1,9 @@
 .categories__section {
-  padding: 30px 100px 20px 100px;
+  padding: 25px 70px 20px 70px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .category__list {
   list-style: none;

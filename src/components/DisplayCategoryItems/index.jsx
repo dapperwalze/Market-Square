@@ -5,42 +5,54 @@ import HeadPhone from "../CategoryItem/head-phone.jpg";
 import Mouse from "../CategoryItem/mouse.jpg";
 import Iphone11 from "../CategoryItem/iPhone-11.jpg";
 import BlowDryer from "../CategoryItem/blow-dryer.jpg";
+import { SearchBar } from "../SearchBar";
 
 export const DisplayCategoryItems = (props) => {
   return (
     <main className="main__section">
+      <SearchBar />
+
       <h2 className="main__section__header">
-        {props.categoryName} <Badge numberOfItems={12} />
+        {props.categoryName} <Badge className="badge" numberOfItems={12} />
       </h2>
+
       <CategoryItem
+        linkTo="/product:id"
         alt="Head Phone"
         productImageSource={HeadPhone}
-        productName="Sony WH-1000XM4 Wireless Noise Canceling Overhead Headphones"
-        productPrice="76,500"
-      />
-      <CategoryItem
-        alt="Mouse"
-        productImageSource={Mouse}
-        productName="Lorem ipsum lorem"
-        productPrice="76,500"
-      />
-      <CategoryItem
-        alt="iPhone 11"
-        productImageSource={Iphone11}
-        productName="Iphone 11 blah blah"
+        productName="Norbury Scandinavian Wood Leg Ottoman"
         productPrice="76,500"
       />
 
       <CategoryItem
-        alt="Blow Dryer"
-        productImageSource={BlowDryer}
-        productName="Blow dryer"
+        linkTo="/product:id"
+        alt="Mouse"
+        productImageSource={Mouse}
+        productName="Norbury Scandinavian Wood Leg Ottoman"
         productPrice="76,500"
       />
+
       <CategoryItem
+        linkTo="/product:id"
+        alt="iPhone 11"
+        productImageSource={Iphone11}
+        productName="Norbury Scandinavian Wood Leg Ottoman"
+        productPrice="76,500"
+      />
+
+      <CategoryItem
+        linkTo="/product:id"
+        alt="Blow Dryer"
+        productImageSource={BlowDryer}
+        productName="Norbury Scandinavian Wood Leg Ottoman"
+        productPrice="76,500"
+      />
+
+      <CategoryItem
+        linkTo="/product:id"
         alt="Head Phone"
         productImageSource={HeadPhone}
-        productName="Sony  Headphones"
+        productName="Norbury Scandinavian Wood Leg Ottoman"
         productPrice="76,500"
       />
     </main>

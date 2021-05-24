@@ -1,16 +1,16 @@
 .reaction__container {
-  margin-top: 45px;
+  margin-top: 35px;
   padding-left: 0px;
   width: 70%;
-  max-width: 300px;
+  max-width: 250px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
 }
 .sad__smiley {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 .reaction__message__container {
   text-align: center;
@@ -21,7 +21,7 @@
   color: #000;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 500px;
 }
 .paragraph__reaction-message {
   margin: 0;
@@ -30,4 +30,17 @@
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: normal;
+}
+.badge {
+  background-color: #2766cc;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: 5px;
+  text-align: center;
+  padding: 4px 5px;
+  width: 30px;
+  display: inline-block;
+  margin-left: 7px;
 }

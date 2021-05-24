@@ -1,5 +1,5 @@
 import "./badge.scss";
 
 export const Badge = (props) => {
-  return <span className="badge">{props.numberOfItems}</span>;
+  return <span className={props.className}>{props.numberOfItems}</span>;
 };

@@ -11,9 +11,55 @@ $lineHeight: 15px;
   background-color: $backgroundColor;
   color: $primaryTextColor;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  justify-content: space-evenly;
   border-bottom: 1.5px solid #ccc;
 }
 .header__right-block {
   display: flex;
+  margin-left: auto;
+}
+.header__link {
+  text-decoration: none;
+}
+.header__ul {
+  list-style-type: none;
+}
+.header__list {
+  display: inline-flex;
+}
+.cart__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 70px;
+}
+.cartIcon {
+  color: #000080;
+}
+.cart__name {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700px;
+  color: #000080;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+.account__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accountIcon {
+  color: #000080;
+  margin-top: 5px;
+}
+.account__name {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700px;
+  color: #000080;
+  margin-left: 10px;
+  margin-top: 10px;
 }

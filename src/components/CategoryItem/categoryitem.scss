@@ -3,6 +3,10 @@
   margin-top: 25px;
   padding-bottom: 5px;
 }
+
+.product__link {
+  text-decoration: none;
+}
 .product__image_container {
   border-radius: 7px;
 }
@@ -12,6 +16,7 @@
   object-fit: fill;
   border-radius: 7px;
 }
+
 .product__details {
   width: 100%;
   margin-left: 15px;
